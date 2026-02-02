@@ -21,24 +21,28 @@ All analyses are implemented in Python using Jupyter notebooks, with a strong em
 
 ## Repository Structure
 
-notebooks/
-├── N01 — Data Engineering & Returns Construction
-├── N02 — Linear Models, Factor Models & Diagnostics
-├── N03 — Unit Roots, Cointegration & VAR/VECM Dynamics
-├── N04 — Conditional Volatility Modeling (ARCH/GARCH/EGARCH)
-├── N05 — Tail Risk Modeling (VaR & Expected Shortfall)
-├── N06 — Option Pricing & Monte Carlo Methods
-├── N07 — Static Portfolio Optimization
-├── N08 — Quantitative Strategies & Backtesting
+**notebooks/**
+- N01 — Data Engineering & Returns Construction  
+- N02 — Linear Models, Factor Models & Diagnostics  
+- N03 — Unit Roots, Cointegration & VAR/VECM Dynamics  
+- N04 — Conditional Volatility Modeling (ARCH / GARCH / EGARCH)  
+- N05 — Tail Risk Modeling (VaR & Expected Shortfall)  
+- N06 — Option Pricing & Monte Carlo Methods  
+- N07 — Static Portfolio Optimization  
+- N08 — Quantitative Strategies & Backtesting  
 
-data/
-├── processed/        # Cleaned and aligned datasets
-├── powerbi/          # Export-ready tables for dashboards
+**data/**
+- processed/ — Cleaned and aligned datasets  
+- powerbi/ — Export-ready tables for dashboards  
 
-figures/              # Model outputs and visual diagnostics
-tables/               # Regression and estimation results
-utils/                # Helper functions and shared utilities
+**figures/**
+- Model outputs and visual diagnostics  
 
+**tables/**
+- Regression and estimation results  
+
+**utils/**
+- Helper functions and shared utilities  
 
 Each notebook builds on the previous one, forming a **logically ordered pipeline** rather than a collection of standalone experiments.
 
